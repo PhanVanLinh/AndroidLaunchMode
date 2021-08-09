@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_current_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#111"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:text="Activty A" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_start_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Activity A" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_start_B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Activity B" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_start_C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Activity C" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_start_D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Activity D" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type something"
+        />
+
+</LinearLayout>
